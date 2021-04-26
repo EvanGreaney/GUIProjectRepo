@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AudioManager">
+    <Position X="4.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAAAAAABEAAAAgAAAAAAAAEA=</HashCode>
+      <FileName>Assets\_Scripts\AudioManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgAAAAAQAAAABAAAgAIAQAAAAAAAAAAACAAAAEAA=</HashCode>
+      <FileName>Assets\_Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAABAAAAAAAAABAAAgAIIgIAAAAAAAAEAAgABEEEA=</HashCode>
+      <FileName>Assets\_Scripts\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseMenu">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <Members>
+      <Event Name="Event" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABQgAAAAACAAAAAAABAgAAAAAgAAgAAAABAAAAgAAAA=</HashCode>
+      <FileName>Assets\_Scripts\PauseMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetVolume">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\SetVolume.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scoring">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAACQAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Scoring.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sound">
+    <Position X="4.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAIAAAAgAAAAAAAEAEAgAAAAAAACAAA=</HashCode>
+      <FileName>Assets\_Scripts\Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnBlocks">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABACAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\SpawnBlocks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TetrisBlock">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <Members>
+      <Event Name="Event" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAQAgAAAACICAAQIQBgoAAREAgAAAAQIABAAAAAAACA=</HashCode>
+      <FileName>Assets\_Scripts\TetrisBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

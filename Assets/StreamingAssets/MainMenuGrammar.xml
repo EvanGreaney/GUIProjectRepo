@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice"
+         root="MainMenu" tag-format="semantics/1.0"
+         xmlns="http://www.w3.org/2001/06/grammar" >
+
+  <rule id="MainMenu" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#startState" />
+      </item>
+      <item>
+        <ruleref uri="#quitState" />
+      </item>
+      <item>
+        <ruleref uri="#optionState" />
+      </item>
+      <item>
+        <ruleref uri="#MainMenuState" />
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="startState">
+    <item>
+      <tag>out.action = "new";</tag>
+      <one-of>
+        <item> Start game </item>
+        <item> Start a new game </item>
+        <item> Begin a new game </item>
+        <item> New game </item>
+        <item> I want to play </item>
+      </one-of>
+    </item>
+  </rule>
+
+  <rule id="quitState" >
+    <item>
+      <tag>out.action = "quit";</tag>
+      <one-of>
+        <item> finish the game </item>
+        <item> exit game </item>
+        <item> exit  </item>
+        <item> quit game </item>
+        <item> quit </item>
+        <item> I give up </item>
+      </one-of>
+    </item>
+  </rule>
+
+  <rule id="optionState" >
+    <item>
+      <tag>out.action = "options";</tag>
+      <one-of>
+        <item> Show me the controls </item>
+        <item> Options </item>
+        <item> open Options </item>
+        <item> Settings </item>
+        <item> open Settings </item>
+
+      </one-of>
+    </item>
+  </rule>
+
+  <rule id="MainMenuState" >
+    <item>
+      <tag>out.action = "mainMenu";</tag>
+      <one-of>
+        <item> Return to Main Menu </item>
+        <item> Return to the Main Menu </item>
+        <item> Main Menu </item>
+        <item> Back to Start Screen</item>
+        <item> Back to the Start Screen</item>
+
+      </one-of>
+    </item>
+  </rule>
+  
+
+  
+
+  
+
+</grammar>
